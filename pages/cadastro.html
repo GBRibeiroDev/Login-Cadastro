@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../style/cadastro.css">
+    <link rel="shortcut icon" href="../src/form.svg" type="image/x-icon">
+</head>
+<body>
+    <div id="form">
+        <form action="cadastro.php" method="post">
+            <h1>Cadastre-se</h1>
+            <input type="text" name="nome" id="inome" placeholder="Nome" required>
+            <input type="text" name="segundo" id="isegundo" placeholder="Sobrenome" required>
+            <input type="tel" name="tel" id="itel" placeholder="Telefone" required>
+            <input type="email" name="email" id="iemail" placeholder="E-mail" required>
+            <input type="password" name="senha" id="isenha" placeholder="Senha" required>
+            <input type="password" name="con" id="icon" placeholder="Confirme sua senha" required>
+            <button type="submit">Cadastrar</button>
+            
+            <div class="divisor"></div>
+        </form>
+    </div>
+</body>
+</html>
